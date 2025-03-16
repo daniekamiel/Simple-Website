@@ -1,10 +1,91 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> Home Page</title>
+		<title> Register Membership</title>
 	</head>
 	<body>
-			<h1>Selamat Datang </h1>
-			<p> </p>
+			<h1 align="Center" width="100%" > Journey Fitness Center </h1>
+			<hr align="Center" size="2" width="100%">
+			<p align="Center">
+				<a href="index.html">Home Page||</a>
+				<a href="about.html">About us||</a>
+				<a href="program.html">Program||</a>
+				<a href="class.html">Class And Event||</a>
+				<a href="trainer.html">Trainer Profile||</a>
+				<a href="membership.html">Membership And Services||</a>
+			<hr align="Center" size="2" width="100%">
+			
 	</body>
+
+	<form>
+		<Table border ="0" align="Center" cellpadding = "5" width = "80%" height = "250">
+		<tr>
+			<td coldspan ="3"><h2>Register Membership</h2></td>
+		</tr>
+		
+		<tr>
+			<td>Full Name : </td>
+			<td> : </td>
+			<td><input type= "text" name= "Name" size= "30" placeholder= "Full name"required></td>
+		</tr>
+
+		<tr>
+			<td>Email</td>
+			<td>:</td>  
+			<td><input type= "email" name= "Email" size= "30" placeholder= "Your Email "required></td>
+		</tr>
+
+		<tr>
+			<td>Number </td>
+			<td>:</td>
+			<td><input type= "tel" id="Phone" placeholder="Example: 6012-3456789" pattern="6[0-9]{3}-[0-9]{7,8}"  required></td>
+		</tr>
+	 
+		<tr>
+			<td>State</td>
+			<td>:</td>
+			<td><select name = "State" size ="1">
+				<option value=select >Selangor</option>
+				<option value="Johor">Johor</option>
+				<option value="Kedah">Kedah</option>
+				<option value="Kelantan">Kelantan</option>
+				<option value="Melaka">Melaka</option>
+				<option value="Negeri Sembilan">Negeri Sembilan</option>
+				<option value="Pahang">Pahang</option>
+				<option value="Perak">Perak</option>
+				<option value="Perlis">Perlis</option>
+				<option value="Pulau Pinang">Pulau Pinang</option>
+				<option value="Sabah">Sabah</option>
+				<option value="Sarawak">Sarawak</option>
+				<option value="Terengganu">Terengganu</option>
+				<option value="Wilayah Persekutuan Kuala Lumpur">Wilayah Persekutuan Kuala Lumpur</option>
+				<option value="Wilayah Persekutuan Labuan">Wilayah Persekutuan Labuan</option>
+				<option value="Wilayah Persekutuan Putrajaya">Wilayah Persekutuan Putrajaya</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Gender </td>
+			<td>:</td>
+			<td><input type="radio" name="Gender" value="M" checked>Men
+				<input type="radio" name="Gender" value="F">Female</td>
+		</tr>
+
+		<tr>
+			<td>Feedback</td>
+			<td>:</td>
+			<td><Textarea Name = "Feedback" rows="10" cols="50" wrap="soft" placeholder= "Please give feedback to improve our services."></Textarea></td>
+		</tr>
+		
+		<tr>
+			<td>Send Register</td>
+			<td> </td>
+			<td>
+				<Input type="submit" value="submit"></Input>
+				<input type="reset" value="reset">	
+			</td>
+		</tr> 
+			
+	</form>
 </html>
