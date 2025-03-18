@@ -1,17 +1,78 @@
 <!DOCTYPE html>
 <html>
-	<head> <title> Home Page</title> </head>
-	<body>
+	<head> 
+		<script>
+			function Hello() {
+				alert("Welcome to Journey Fitness Center Sign Up Now!!!");
+			}
+		</script>
+		<title> Home Page</title> 
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background-image: url('index.jpg'); /* Ensure the image path is correct */
+				background-size: 100%; /* Set image size to 100% */
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-attachment: fixed;
+				background-color: #f8f9fa;
+				text-align: center;
+			}
+			header {
+				background-color: #fff;
+				padding: 20px;
+				box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+			}
+			nav {
+				margin: 20px 0;
+			}
+			nav a {
+				margin: 0 15px;
+				text-decoration: none;
+				color: #007bff;
+				font-weight: bold;
+			}
+			.container {
+				padding: 20px;
+			}
+			footer {
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+				background-color: #fff;
+				padding: 10px;
+				box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body onload="Hello()">
 			<h1 align="Center" width="100%" > Journey Fitness Center </h1>
 			<hr align="Center" size="2" width="100%">
-			<p align="Center">
-				<a href="about.html">About us||</a>
-				<a href="program.html">Program||</a>
-				<a href="class.html">Class And Event||</a>
-				<a href="trainer.html">Trainer Profile||</a>
-				<a href="membership.html">Membership And Services||</a>
-				<a href="register.html">Register Form||</a>
-			<hr align="Center" size="2" width="100%"></p>
-			<B>Home Page</B>
+			<nav>
+				<p align="Center">
+					<a href="index.html">Home</a>
+					<a href="about.html">About Us</a>
+					<a href="programs.html">Health Programs</a>
+					<a href="class.html">Classes & Events</a>
+					<a href="trainer.html">Trainer Profiles</a>
+					<a href="membership.html">Membership & Services</a>
+					<a href="register.html">Register</a>
+				<hr align="Center" size="2" width="100%"></p>
+			</nav>
+			<marquee behavior="scroll" direction="rights">
+				💪 Join Now & Get Fit! 💪
+				Sign up today and kickstart your fitness journey with exclusive perks! 🚀
+			</marquee>
+			<div class="container">
+			<h2>Welcome to Journey Fitness Center</h2>
+			<p>Your ultimate destination for health, fitness, and wellness.</p>
+			</div>
+				<p>
+				</p>
+			<footer>
+				<p>&copy; 2025 Journey Fitness Center. All rights reserved.</p>
+			</footer>
 	</body>
-
+</html>
